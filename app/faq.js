@@ -1,9 +1,9 @@
-import { SafeAreaView, ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native";
 import { COLORS } from "../constants";
-import { Stack, useRouter } from "expo-router";
+import { Stack } from "expo-router";
 import Faqs from "../components/FAQ/FAQs";
 
-//This is screen for faq
+//This is screen for /faq
 const FAQs = () => {
   return (
     <SafeAreaView

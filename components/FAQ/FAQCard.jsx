@@ -5,6 +5,7 @@ import { COLORS, FONT, SIZES } from "../../constants";
 
 const FAQCard = (props) => {
   const { question, answer, id } = props;
+  // These states are for open close the faq when you click on one
   const [currentId, setId] = useState(id);
   const [isHidden, setHidden] = useState(false);
   const faqClicked = () => {
@@ -19,6 +20,7 @@ const FAQCard = (props) => {
         </TouchableOpacity>
       </View>
       <View style={styles.answerContainer}>
+        {/* Only show the faq answer when the state matches */}
         {isHidden && currentId == id && (
           <Text style={styles.answer}>{answer}</Text>
         )}

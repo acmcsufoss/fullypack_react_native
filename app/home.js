@@ -1,8 +1,9 @@
 import { SafeAreaView, ScrollView, Text, View } from "react-native";
 import { Stack } from "expo-router";
-import { COLORS, images, SIZES } from "../constants";
+import { COLORS, SIZES } from "../constants";
 import Landing, { GetStartedButton } from "../components/Home/Landing";
 
+//This is the home screen
 const Home = () => {
   return (
     <SafeAreaView
@@ -26,7 +27,7 @@ const Home = () => {
           <Landing />
         </View>
       </ScrollView>
-      <GetStartedButton/>
+      <GetStartedButton />
     </SafeAreaView>
   );
 };

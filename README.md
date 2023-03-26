@@ -1,3 +1,7 @@
+# About FullyPacks
+
+### one of a [_curated collection of Github templates_](https://github.com/orgs/acmcsufoss/repositories?q=fullypack_&type=all&sort=stargazers) designed to kickstart your project and help you get up and running in no time!
+
 # Expo Router Example
 
 Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.

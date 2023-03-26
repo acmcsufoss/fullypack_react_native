@@ -5,6 +5,7 @@ import { FONT, SIZES } from "../../constants";
 import FAQCard from "./FAQCard";
 
 const Faqs = () => {
+  //State to load data from api and loading state when data hasn't been loaded
   const [isLoading, setLoading] = useState(false);
   const [FAQs, setFAQs] = useState([]);
   useEffect(() => {
@@ -20,12 +21,14 @@ const Faqs = () => {
     <View style={styles.faqsContainer}>
       <Text style={styles.title}>Frequently Asked Questions</Text>
       {isLoading && <Text> Loading...</Text>}
+      {/* Render each faq using React Native FlatList */}
       <FlatList
         data={FAQs}
         renderItem={({ item }) => (
           <FAQCard question={item.question} answer={item.answer} id={item.id} />
         )}
-        keyExtractor={(item) => item.id}
+        // each item needs to have a key
+        keyExtractor={(item) => item.id} 
       />
     </View>
   );
