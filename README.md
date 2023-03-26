@@ -22,7 +22,7 @@
 
 # How to use 🚀
 
-1. Use this template by clicking "Use this template" button above or [click here](https://github.com/acmcsufoss/hackpack_flask_vercel/generate)
+1. Use this template by clicking "Use this template" button above or [click here](https://github.com/acmcsufoss/fullypack_react_native/generate)
 2. In your terminal, type ```npm install``` to install packages (You'll have to install [Node.js](https://nodejs.org/en/download) in order to use this
 command)
 3. In your terminal, type ```npm start``` to run the project, it'll display something like this:
