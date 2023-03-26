@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "fullypack_react_native",
+    "slug": "fullypack_react_native"
+  }
+}
